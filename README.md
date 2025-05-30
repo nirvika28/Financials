@@ -16,17 +16,6 @@ pandas
 
 openpyxl
 
-Installation
-Clone this repository:
-
-bash
-git clone https://github.com/yourusername/financial-chatbot.git
-cd financial-chatbot
-Install dependencies:
-
-bash
-pip install pandas openpyxl
-Ensure Financials_2021-2023.xlsx is in the project directory.
 
 Usage
 Run the script or open the Jupyter notebook.
