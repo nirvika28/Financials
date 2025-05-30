@@ -1,0 +1,61 @@
+Financial Chatbot Documentation
+Overview
+This streamlined financial chatbot is a simple, rule-based Python program designed to answer key financial questions about Microsoft (MSFT), Tesla (TSLA), and Apple (AAPL) for the fiscal years 2021–2023. The chatbot reads data from the provided Excel file (Financials_2021-2023.xlsx) and responds to a set of predefined queries using this data.
+
+How the Chatbot Works
+The chatbot loads and processes the financial data from the Excel file.
+
+It uses if-else statements to match user queries to specific, predefined questions.
+
+For each supported query, the chatbot extracts the relevant data for all companies for the year 2023 (or compares 2022 and 2023 as needed).
+
+The chatbot prints clear, formatted answers to the user.
+
+If a user asks a question outside the supported set, the chatbot responds with a polite message indicating its limitations.
+
+Predefined Queries Supported
+The chatbot can answer the following questions:
+
+What is the total revenue?
+Returns the total revenue for each company for 2023.
+
+How has net income changed over the last year?
+Reports the change (increase or decrease) in net income from 2022 to 2023 for each company.
+
+What is the profit margin?
+Calculates and returns the profit margin for each company for 2023.
+
+Other queries
+For any other question, the chatbot responds:
+"Sorry, I can only provide information on predefined queries."
+
+Example Test Results
+
+> What is the total revenue?
+MSFT total revenue (2023): $211.9B
+TSLA total revenue (2023): $96.77B
+AAPL total revenue (2023): $383.29B
+
+> How has net income changed over the last year?
+MSFT net income has decreased by $0.30B from 2022 to 2023
+TSLA net income has increased by $2.44B from 2022 to 2023
+AAPL net income has decreased by $2.80B from 2022 to 2023
+
+> What is the profit margin?
+MSFT profit margin (2023): 25.81%
+TSLA profit margin (2023): 6.34%
+AAPL profit margin (2023): 22.75%
+
+> Who is the CEO?
+Sorry, I can only provide information on predefined queries.
+
+Limitations:-
+The chatbot only answers the three specific, predefined queries listed above.
+
+It does not understand or process questions outside this set.
+
+The chatbot does not perform natural language understanding or advanced AI; it uses simple rule-based matching.
+
+The chatbot only provides data for the companies and years present in the Excel file.
+
+
